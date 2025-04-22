@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navContainer {
+  background-color: rgb(251, 252, 185);
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+img {
+  width: 50px;
+  height: 50px;
+  max-width: 100%;
+  border: 1px solid #eee;
+}
+ul {
+  display: flex;
+  align-self: self-end;
+  gap: 10px;
+  list-style: none;
+  a {
+    text-decoration: none;
+    color: black;
+    background-color: rgb(255, 207, 76);
+    padding: 5px 10px;
+    display: inline-block;
+  }
+}
